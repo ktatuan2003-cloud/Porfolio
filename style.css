@@ -500,7 +500,7 @@ section h2 {
 /* Tablet */
 @media (max-width: 1024px) {
   header h1 { font-size: 100px; }
-  header h2, header .author-name { font-size: 20px; }
+  header h2, header .author-name { font-size: 25px; }
 
   section { padding: 40px 15px; }
   .about img { width: 160px; height: 160px; }
@@ -533,7 +533,7 @@ section h2 {
 
   header .author-name {
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: -250px;   /* gần sát trái hơn */
     display: block;     /* đảm bảo xuống dòng */
 
@@ -556,8 +556,8 @@ section h2 {
   .exp-arrow.left { left: 30%; }
   .exp-arrow.right { right: 30%; }
 
-  .mySwiper2 { height: 300px; }
-  .mySwiper { height: 300px; }
+  .mySwiper2 { height: 600px; }
+  .mySwiper { height: 600px; }
   
 
   .restaurant-desc-wrapper {
@@ -949,5 +949,6 @@ a
   object-fit: contain;
   max-width: 100px; /* desktop mặc định */
 }
+
 
 
