@@ -498,11 +498,11 @@ section h2 {
   width: 50%;
   height: auto;
 }
-/* ================== RESPONSIVE ================== */
+/*responsive*/
 /* Tablet */
 @media (max-width: 1024px) {
   header h1 { font-size: 100px; }
-  header h2, header .author-name { font-size: 25px; }
+  header h2, header .author-name { font-size: 20px; }
 
   section { padding: 40px 15px; }
   .about img { width: 160px; height: 160px; }
@@ -533,7 +533,7 @@ section h2 {
   }
 }
 
- header .author-name {
+  header .author-name {
     font-size: 25px;
     margin-top: 70px;
     margin-left: -250px;   /* gần sát trái hơn */
@@ -565,7 +565,7 @@ section h2 {
   .restaurant-desc-wrapper {
     max-width: 200%;
     font-size: 14px;
-    max-height: 200px;   /* Nhỏ hơn trên mobile */
+    max-height: 400;   /* Nhỏ hơn trên mobile */
     overflow-y: auto;    /* Nếu text dài quá thì cuộn */
   }
 
@@ -585,16 +585,18 @@ section h2 {
   object-fit: contain;
 }
 
+
+
 .restaurant-desc-wrapper .swiper-slide.img-13 img {
-  max-width: 220px;   /* Giới hạn chiều rộng tối đa */
-  height: auto;       /* Giữ đúng tỉ lệ */
+  max-width: 400px;   /* Giới hạn chiều rộng tối đa */
+  height: 200px;       /* Giữ đúng tỉ lệ */
   object-fit: contain;
 }
 
   .bee-desc-wrapper {
     max-width: 200%;
     font-size: 14px;
-    max-height: 200px;   /* Nhỏ hơn trên mobile */
+    max-height: 300px;   /* Nhỏ hơn trên mobile */
     overflow-y: auto;    /* Nếu text dài quá thì cuộn */
   }
 
@@ -608,16 +610,13 @@ section h2 {
   }
 
    .pia-desc-wrapper img  {
-    max-width: 100%;     /* Ảnh co theo khung */
+    max-width: 200%;     /* Ảnh co theo khung */
     height: auto;        /* Giữ tỉ lệ ảnh */
-    max-height: 200px;   /* Giới hạn chiều cao ảnh */
+    max-height: 800px;   /* Giới hạn chiều cao ảnh */
     object-fit: contain;   /* Cắt vừa khung, không méo ảnh */
     border-radius: 8px;  /* Bo góc cho đẹp */
-  }
-
-
-
-
+   }
+  
 
 .experience-slider {
   min-height: 400px;
@@ -950,6 +949,5 @@ a
   height: auto;
   object-fit: contain;
 }
-
 
 
