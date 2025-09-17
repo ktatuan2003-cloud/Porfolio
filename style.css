@@ -533,9 +533,9 @@ section h2 {
   }
 }
 
-  header .author-name {
+ header .author-name {
     font-size: 25px;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: -250px;   /* gần sát trái hơn */
     display: block;     /* đảm bảo xuống dòng */
 
@@ -950,5 +950,6 @@ a
   height: auto;
   object-fit: contain;
 }
+
 
 
