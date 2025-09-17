@@ -72,7 +72,7 @@ header .author-name {
   font-family: Oswald, sans-serif;
   font-size: 25px;
   position: relative;
-  top: -20px;
+  top: -80px;
 }
 
 
@@ -300,19 +300,21 @@ section h2 {
 
 /* ================== SWIPER MAIN (mySwiper2) ================== */
 .mySwiper2 {
-  width: 100%;
-  max-width: 1400px;
-  height: 700px;
+  width: 100%;             /* chiếm toàn bộ khung cha */
+  max-width: 1600px;        /* tăng max-width nếu muốn to hơn */
+  height: 1000px;            /* tăng chiều cao */
   margin: 0 auto 30px;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
+
 .mySwiper2 img {
-  width: 100%;
+  width: 100%;              /* fit đúng theo khung */
   height: 100%;
-  object-fit: cover;
+  object-fit: cover;         /* giữ tỷ lệ ảnh đẹp */
 }
+
 .mySwiper2 .swiper-button-next,
 .mySwiper2 .swiper-button-prev {
   color: #000;
@@ -331,8 +333,8 @@ section h2 {
 }
 
 .mySwiper .swiper-slide {
-  width: 100px;              /* thumbnail nhỏ gọn, đều nhau */
-  height: 100px;
+  width: 200px;              /* thumbnail nhỏ gọn, đều nhau */
+  height: 200px;
   opacity: 0.5;
   cursor: pointer;
   transition: opacity 0.3s, transform 0.3s;
@@ -496,7 +498,7 @@ section h2 {
   width: 50%;
   height: auto;
 }
-/*responsive*/
+/* ================== RESPONSIVE ================== */
 /* Tablet */
 @media (max-width: 1024px) {
   header h1 { font-size: 100px; }
@@ -532,8 +534,8 @@ section h2 {
 }
 
   header .author-name {
-    font-size: 16px;
-    margin-top: 25px;
+    font-size: 25px;
+    margin-top: 50px;
     margin-left: -250px;   /* gần sát trái hơn */
     display: block;     /* đảm bảo xuống dòng */
 
@@ -670,7 +672,7 @@ section h2 {
   .about-text { font-size: 20px; }
 
   .mySwiper2 { height: 200px; }
-  .mySwiper { height: 60px; }
+  .mySwiper { height: 200px; }
   .projects-section .section-title { font-size: 24px; }
 
   
@@ -934,7 +936,7 @@ a
 
 .mySwiper .swiper-slide {
   flex: 0 0 auto;
-  max-width: 100px; /* desktop mặc định */
+  max-width: 800px; /* desktop mặc định */
 }
 
 .mySwiper img {
@@ -947,8 +949,6 @@ a
   width: 100%;
   height: auto;
   object-fit: contain;
-  max-width: 100px; /* desktop mặc định */
 }
-
 
 
