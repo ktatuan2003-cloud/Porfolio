@@ -836,27 +836,9 @@ footer .footer-bottom {
   display: block;
 }
 
-/* ảnh số 3 */
-.mySwiper2 .swiper-slide.img-sc3 img {
-  max-width: 40%;
-  max-height: 450px;
-  object-fit: contain;
-  margin: 0 auto;
-  display: block;
-}
-
 /* ảnh số 4 */
 .mySwiper2 .swiper-slide.img-sc4 img {
   max-width: 55%;
-  max-height: 450px;
-  object-fit: contain;
-  margin: 0 auto;
-  display: block;
-}
-
-/* ảnh số 5 */
-.mySwiper2 .swiper-slide.img-sc5 img {
-  max-width: 65%;
   max-height: 450px;
   object-fit: contain;
   margin: 0 auto;
@@ -1071,6 +1053,7 @@ a
   height: auto;
   object-fit: contain;
 }
+
 
 
 
