@@ -819,7 +819,7 @@ footer .footer-bottom {
 /* ================== SLIDER CHÍNH - THU NHỎ CỤ THỂ TỪNG ẢNH ================== */
 
 /* ảnh số 1 */
-.piaDescSwiper .img-sc1 img {
+.piaDescSwiper .swiper-slide.img-sc1 img {
   max-width: 50%;
   max-height: 450px;
   object-fit: contain;
@@ -828,7 +828,7 @@ footer .footer-bottom {
 }
 
 /* ảnh số 2 */
-.piaDescSwiper .img-sc2 img {
+.piaDescSwiper .swiper-slide.img-sc2 img {
   max-width: 60%;
   max-height: 450px;
   object-fit: contain;
@@ -837,7 +837,7 @@ footer .footer-bottom {
 }
 
 /* ảnh số 3 */
-.piaDescSwiper .img-sc3 img {
+.piaDescSwiper .swiper-slide.img-sc3 img {
   max-width: 40%;
   max-height: 450px;
   object-fit: contain;
@@ -846,7 +846,7 @@ footer .footer-bottom {
 }
 
 /* ảnh số 4 */
-.piaDescSwiper .img-sc4 img {
+.piaDescSwiper .swiper-slide.img-sc4 img {
   max-width: 55%;
   max-height: 450px;
   object-fit: contain;
@@ -855,7 +855,7 @@ footer .footer-bottom {
 }
 
 /* ảnh số 5 */
-.piaDescSwiper .img-sc5 img {
+.piaDescSwiper .swiper-slide.img-sc5 img {
   max-width: 65%;
   max-height: 450px;
   object-fit: contain;
@@ -864,7 +864,7 @@ footer .footer-bottom {
 }
 
 /* ảnh số 6 */
-.piaDescSwiper .img-sc6 img {
+.piaDescSwiper .swiper-slide.img-sc6 img {
   max-width: 50%;
   max-height: 450px;
   object-fit: contain;
@@ -873,7 +873,7 @@ footer .footer-bottom {
 }
 
 /* ảnh số 7 */
-.piaDescSwiper .img-sc7 img {
+.piaDescSwiper .swiper-slide.img-sc7 img {
   max-width: 45%;
   max-height: 450px;
   object-fit: contain;
@@ -882,7 +882,7 @@ footer .footer-bottom {
 }
 
 /* ảnh số 8 */
-.piaDescSwiper .img-sc8 img {
+.piaDescSwiper .swiper-slide.img-sc8 img {
   max-width: 55%;
   max-height: 450px;
   object-fit: contain;
@@ -891,7 +891,7 @@ footer .footer-bottom {
 }
 
 /* ảnh số 9 */
-.piaDescSwiper .img-sc9 img {
+.piaDescSwiper .swiper-slide.img-sc9 img {
   max-width: 60%;
   max-height: 450px;
   object-fit: contain;
@@ -900,7 +900,7 @@ footer .footer-bottom {
 }
 
 /* ảnh số 10 */
-.piaDescSwiper .img-sc10 img {
+.piaDescSwiper .swiper-slide.img-sc10 img {
   max-width: 50%;
   max-height: 450px;
   object-fit: contain;
@@ -909,7 +909,7 @@ footer .footer-bottom {
 }
 
 /* ảnh số 11 */
-.piaDescSwiper .img-sc11 img {
+.piaDescSwiper .swiper-slide.img-sc11 img {
   max-width: 40%;
   max-height: 450px;
   object-fit: contain;
@@ -918,7 +918,7 @@ footer .footer-bottom {
 }
 
 /* ảnh số 12 */
-.piaDescSwiper .img-sc12 img {
+.piaDescSwiper .swiper-slide.img-sc12 img {
   max-width: 55%;
   max-height: 450px;
   object-fit: contain;
@@ -927,7 +927,7 @@ footer .footer-bottom {
 }
 
 /* ảnh số 13 */
-.piaDescSwiper .img-sc13 img {
+.piaDescSwiper .swiper-slide.img-sc13 img {
   max-width: 45%;
   max-height: 450px;
   object-fit: contain;
@@ -1070,6 +1070,7 @@ a
   height: auto;
   object-fit: contain;
 }
+
 
 
 
