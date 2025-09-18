@@ -779,7 +779,7 @@ footer .footer-bottom {
 
 /* ================== SLIDER MÔ TẢ (Pía) ================== */
 .pia-desc-wrapper {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto 50px;
 }
 .piaDescSwiper {
@@ -1053,6 +1053,7 @@ a
   height: auto;
   object-fit: contain;
 }
+
 
 
 
