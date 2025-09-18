@@ -815,6 +815,127 @@ footer .footer-bottom {
   background: #fff;
 }
 
+
+/* ================== SLIDER CHÍNH - THU NHỎ CỤ THỂ TỪNG ẢNH ================== */
+
+/* ảnh số 1 */
+.piaDescSwiper .img-sc1 img {
+  max-width: 50%;
+  max-height: 450px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ảnh số 2 */
+.piaDescSwiper .img-sc2 img {
+  max-width: 60%;
+  max-height: 450px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ảnh số 3 */
+.piaDescSwiper .img-sc3 img {
+  max-width: 40%;
+  max-height: 450px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ảnh số 4 */
+.piaDescSwiper .img-sc4 img {
+  max-width: 55%;
+  max-height: 450px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ảnh số 5 */
+.piaDescSwiper .img-sc5 img {
+  max-width: 65%;
+  max-height: 450px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ảnh số 6 */
+.piaDescSwiper .img-sc6 img {
+  max-width: 50%;
+  max-height: 450px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ảnh số 7 */
+.piaDescSwiper .img-sc7 img {
+  max-width: 45%;
+  max-height: 450px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ảnh số 8 */
+.piaDescSwiper .img-sc8 img {
+  max-width: 55%;
+  max-height: 450px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ảnh số 9 */
+.piaDescSwiper .img-sc9 img {
+  max-width: 60%;
+  max-height: 450px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ảnh số 10 */
+.piaDescSwiper .img-sc10 img {
+  max-width: 50%;
+  max-height: 450px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ảnh số 11 */
+.piaDescSwiper .img-sc11 img {
+  max-width: 40%;
+  max-height: 450px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ảnh số 12 */
+.piaDescSwiper .img-sc12 img {
+  max-width: 55%;
+  max-height: 450px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ảnh số 13 */
+.piaDescSwiper .img-sc13 img {
+  max-width: 45%;
+  max-height: 450px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+
 /* Nếu cần chỉnh riêng từng ảnh */
 .mySwiper2 .img-1 img {
   max-width: 60%;
@@ -949,5 +1070,6 @@ a
   height: auto;
   object-fit: contain;
 }
+
 
 
