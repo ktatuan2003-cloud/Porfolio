@@ -494,7 +494,6 @@ section h2 {
   width: 100%;
   height: auto;
 }
-.mySwiper2 .img-7 img,
 .mySwiper2 .img-8 img,
 .mySwiper2 .img-9 img,
 .mySwiper2 .img-10 img,
@@ -502,6 +501,17 @@ section h2 {
   width: 50%;
   height: auto;
 }
+
+.swiper-slide.img-7 img {
+  width: auto;
+  max-width: 100%;   /* giảm xuống còn 60% */
+  max-height: 600px;
+  margin: 0 auto;
+  display: block;
+  object-fit: contain;
+}
+
+
 /*responsive*/
 /* Tablet */
 @media (max-width: 1024px) {
