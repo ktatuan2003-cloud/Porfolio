@@ -946,9 +946,29 @@ footer .footer-bottom {
   min-height: 400px;
   background: #fff;
 }
+/* Mặc định (desktop, không phóng to nhiều) */
 .piaDescSwiper .img-1 img {
-  max-width: 100%;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  transform: scale(1) !important;   /* bình thường */
+  transform-origin: center !important;
 }
+
+/* Màn hình dưới 768px (tablet, mobile) */
+@media (max-width: 768px) {
+  .piaDescSwiper .img-1 img {
+    transform: scale(1.5) !important;  /* phóng to 1.5 lần */
+  }
+}
+
+/* Màn hình rất nhỏ, dưới 480px (mobile nhỏ) */
+@media (max-width: 480px) {
+  .piaDescSwiper .img-1 img {
+    transform: scale(2) !important;   /* phóng to 2 lần */
+  }
+}
+
 
 .piaDescSwiper .img-6 img {
   max-width: 50%;
@@ -1068,6 +1088,7 @@ a
   height: auto;
   object-fit: contain;
 }
+
 
 
 
