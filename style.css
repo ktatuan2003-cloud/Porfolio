@@ -953,6 +953,26 @@ footer .footer-bottom {
   max-width: 50%;
 }
 
+/* Thu nhỏ ảnh chỉ khi màn hình mobile (<= 768px) */
+@media (max-width: 480px) {
+  .swiper-slide.img-2 img {
+    width: 54%;       /* thu nhỏ ảnh */
+    height: auto;     /* giữ nguyên tỉ lệ */
+    margin: 0 auto;   /* canh giữa */
+    display: block;
+    object-fit: contain;
+  }
+
+    .swiper-slide.img-1 img {
+    width: 55%;       /* thu nhỏ ảnh */
+    height: auto;     /* giữ nguyên tỉ lệ */
+    margin: 0 auto;   /* canh giữa */
+    display: block;
+    object-fit: contain;
+  }
+}
+
+
 /* ================== SLIDER LOGO ================== */
 #logo .mySwiper2 {
   max-width: 500px;
