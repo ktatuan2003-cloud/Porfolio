@@ -395,16 +395,30 @@ section h2 {
   display: block;
 }
 /* Ảnh trong slide img-13 & logo */
-.restaurantDescSwiper .swiper-slide.img-13 img,
 .restaurantDescSwiper .swiper-slide.img-logo img {
-  width: auto;
+  width: 100%;
   height: auto;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: none;
+  max-height: none;
   object-fit: contain;
-  margin: 0 auto;
   display: block;
+  transform: scale(1.5) translateY(30px); /* phóng 2 lần và dịch xuống 30px */
+  transform-origin: top center; /* giữ tâm phóng to ở trên */
 }
+
+.restaurantDescSwiper .swiper-slide.img-13 img {
+  width: 100%;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+  display: block;
+  transform: scale(1.5) translateY(30px); /* phóng 2 lần và dịch xuống 30px */
+  transform-origin: top center; /* giữ tâm phóng to ở trên */
+}
+
+
+
 /* Fix riêng cho ảnh đặc biệt */
 .restaurantDescSwiper .swiper-slide.img-11 img,
 .restaurantDescSwiper .swiper-slide.img-12 img {
@@ -432,9 +446,9 @@ section h2 {
   max-width: 800px;
   margin: 0 auto 50px;
 }
-.beeDescSwiper {
+.beeDescSwiper { 
   width: 100%;
-  height: 400px;
+  height: 600px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -554,6 +568,77 @@ section h2 {
     display: block;     /* đảm bảo xuống dòng */
 
   }
+  @media (max-width: 480px) {
+  .swiper {
+    height: 500px;   /* khung swiper trên mobile */
+  }
+}
+
+  .swiper-slide.img-7 img {
+    max-height: 190px;  
+  }
+
+  .swiper-slide.img-8 img {
+       width: 40%;       /* thu nhỏ ảnh còn 70% khung */
+    height: auto;     /* giữ nguyên tỉ lệ gốc */
+    max-height: none; /* không ép chiều cao */
+    display: block;
+    margin: 0 auto;   /* canh giữa */
+  }
+
+  .swiper-slide.img-9 img {
+    width: 40%;       /* thu nhỏ ảnh còn 70% khung */
+    height: auto;     /* giữ nguyên tỉ lệ gốc */
+    max-height: none; /* không ép chiều cao */
+    display: block;
+    margin: 0 auto;   /* canh giữa */
+  }
+
+  .swiper-slide.img-10 img {
+    width: 40%;       /* thu nhỏ ảnh còn 70% khung */
+    height: auto;     /* giữ nguyên tỉ lệ gốc */
+    max-height: none; /* không ép chiều cao */
+    display: block;
+    margin: 0 auto;   /* canh giữa */
+  }
+
+
+
+
+
+
+
+.bee-desc-wrapper img {
+  max-width: 200%;
+  height: auto;
+  max-height: 600px;   /* mặc định desktop */
+  object-fit: contain;
+  border-radius: 8px;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .bee-desc-wrapper img {
+    max-height: 400px;   /* tablet */
+  }
+}
+
+@media (max-width: 480px) {
+  .bee-desc-wrapper img {
+  max-width: 200%;
+  height: auto;
+  max-height: 600px;   /* tăng từ 300px → 600px */
+  object-fit: contain;
+  border-radius: 8px;
+  display: block;
+}
+
+
+
+}
+
+
+
 
 
   .about-wrap { flex-direction: column; text-align: center; }
@@ -617,7 +702,7 @@ section h2 {
   .bee-desc-wrapper img {
     max-width: 200%;     /* Ảnh co theo khung */
     height: auto;        /* Giữ tỉ lệ ảnh */
-    max-height: 300px;   /* Giới hạn chiều cao ảnh */
+    max-height: 400px;   /* Giới hạn chiều cao ảnh */
     object-fit: contain;   /* Cắt vừa khung, không méo ảnh */
     border-radius: 8px;  /* Bo góc cho đẹp */
       display: block;
@@ -915,7 +1000,7 @@ footer .footer-bottom {
 
 /* Chỉ thu nhỏ ảnh trong slide có class img-6 */
 .swiper-slide.img-6 img {
-  max-width: 60%;   /* điều chỉnh tỷ lệ nhỏ hơn */
+  max-width: 100%;   /* điều chỉnh tỷ lệ nhỏ hơn */
   height: auto;
   display: block;
   margin: 0 auto;   /* căn giữa ảnh */
@@ -963,5 +1048,6 @@ a
   height: auto;
   object-fit: contain;
 }
+
 
 
