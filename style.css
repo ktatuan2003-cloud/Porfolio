@@ -919,7 +919,7 @@ footer .footer-bottom {
 /* Tablet */
 @media (max-width: 768px) {
   .img-sc1 img,
-  .img-sc8 img { max-width: 90%; }
+  
 
   .img-sc2 img,
   .img-sc9 img { max-width: 80%; }
@@ -931,7 +931,7 @@ footer .footer-bottom {
   .img-sc12 img { max-width: 65%; }
 
   .img-sc7 img,
-  .img-sc13 img { max-width: 60%; }
+  
 
   .img-sc11 img { max-width: 50%; } /* riêng */
 }
@@ -939,7 +939,7 @@ footer .footer-bottom {
 /* Mobile nhỏ */
 @media (max-width: 480px) {
   .img-sc1 img,
-  .img-sc8 img { max-width: 75%; }
+  
 
   .img-sc2 img,
   .img-sc9 img { max-width: 70%; }
@@ -951,8 +951,7 @@ footer .footer-bottom {
   .img-sc12 img { max-width: 55%; }
 
   .img-sc7 img,
-  .img-sc13 img { max-width: 50%; }
-
+ 
   .img-sc11 img { max-width: 40%; } /* riêng */
 }
 
@@ -1016,9 +1015,6 @@ footer .footer-bottom {
 }
 
 
-.piaDescSwiper .img-6 img {
-  max-width: 50%;
-}
 
 
 .piaDescSwiper .img-6 img {
@@ -1132,6 +1128,7 @@ a
   height: auto;
   object-fit: contain;
 }
+
 
 
 
