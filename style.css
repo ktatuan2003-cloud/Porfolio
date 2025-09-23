@@ -907,32 +907,55 @@ footer .footer-bottom {
   background: #fff;
 }
 
-/* Mặc định cho desktop */
+/* Desktop mặc định */
 .swiper-slide img {
   width: 100%;
   height: auto;
   object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Tablet */
 @media (max-width: 768px) {
-  .img-sc8 img { max-width: 90%; margin: 0 auto; display: block; }
-  .img-sc9 img { max-width: 80%; margin: 0 auto; display: block; }
-  .img-sc10 img { max-width: 75%; margin: 0 auto; display: block; }
-  .img-sc11 img { max-width: 75%; margin: 0 auto; display: block; }
-  .img-sc12 img { max-width: 65%; margin: 0 auto; display: block; }
-  .img-sc13 img { max-width: 55%; margin: 0 auto; display: block; }
+  .img-sc1 img,
+  .img-sc8 img { max-width: 90%; }
+
+  .img-sc2 img,
+  .img-sc9 img { max-width: 80%; }
+
+  .img-sc4 img,
+  .img-sc10 img { max-width: 75%; }
+
+  .img-sc6 img,
+  .img-sc12 img { max-width: 65%; }
+
+  .img-sc7 img,
+  .img-sc13 img { max-width: 60%; }
+
+  .img-sc11 img { max-width: 50%; } /* riêng */
 }
 
 /* Mobile nhỏ */
 @media (max-width: 480px) {
-  .img-sc8 img { max-width: 80%; }
+  .img-sc1 img,
+  .img-sc8 img { max-width: 75%; }
+
+  .img-sc2 img,
   .img-sc9 img { max-width: 70%; }
+
+  .img-sc4 img,
   .img-sc10 img { max-width: 65%; }
-  .img-sc11 img { max-width: 50%; }
+
+  .img-sc6 img,
   .img-sc12 img { max-width: 55%; }
-  .img-sc13 img { max-width: 45%; }
+
+  .img-sc7 img,
+  .img-sc13 img { max-width: 50%; }
+
+  .img-sc11 img { max-width: 40%; } /* riêng */
 }
+
 
 
 
