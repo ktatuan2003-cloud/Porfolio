@@ -896,14 +896,7 @@ footer .footer-bottom {
   bottom: 10px;
 }
 /* Fix riêng cho ảnh đặc biệt (Pía) */
-.piaDescSwiper .swiper-slide.img-logo img,
-.piaDescSwiper .swiper-slide.img-11 img,
-.piaDescSwiper .swiper-slide.img-12 img,
-.piaDescSwiper .swiper-slide.img-13 img,
-.piaDescSwiper .swiper-slide.img-14 img,
-.piaDescSwiper .swiper-slide.img-15 img,
-.piaDescSwiper .swiper-slide.img-16 img,
-.piaDescSwiper .swiper-slide.img-18 img {
+.piaDescSwiper .swiper-slide.img-logo img {
   width: auto;
   height: auto;
   max-width: 80%;
@@ -913,6 +906,36 @@ footer .footer-bottom {
   display: block;
   background: #fff;
 }
+
+/* Mặc định cho desktop */
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .img-sc8 img { max-width: 90%; margin: 0 auto; display: block; }
+  .img-sc9 img { max-width: 80%; margin: 0 auto; display: block; }
+  .img-sc10 img { max-width: 75%; margin: 0 auto; display: block; }
+  .img-sc11 img { max-width: 75%; margin: 0 auto; display: block; }
+  .img-sc12 img { max-width: 65%; margin: 0 auto; display: block; }
+  .img-sc13 img { max-width: 55%; margin: 0 auto; display: block; }
+}
+
+/* Mobile nhỏ */
+@media (max-width: 480px) {
+  .img-sc8 img { max-width: 80%; }
+  .img-sc9 img { max-width: 70%; }
+  .img-sc10 img { max-width: 65%; }
+  .img-sc11 img { max-width: 50%; }
+  .img-sc12 img { max-width: 55%; }
+  .img-sc13 img { max-width: 45%; }
+}
+
+
+
 
 /* Nếu cần chỉnh riêng từng ảnh */
 .mySwiper2 .img-1 img {
