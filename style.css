@@ -948,7 +948,7 @@ footer .footer-bottom {
 }
 .piaDescSwiper .img-1 img {
   max-width: 100%;
-  transform: scale(2); /* phóng to 150% */
+  transform: scale(1.5); /* phóng to 150% */
   transform-origin: center center; /* phóng từ giữa ảnh */
 }
 
@@ -1071,6 +1071,7 @@ a
   height: auto;
   object-fit: contain;
 }
+
 
 
 
