@@ -1075,6 +1075,15 @@ a
   height: auto;
   object-fit: contain;
 }
+/* ép phóng to ảnh trong Swiper */
+.piaDescSwiper .img-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(3); /* phóng to 3 lần */
+  transform-origin: center;
+}
+
 
 
 
