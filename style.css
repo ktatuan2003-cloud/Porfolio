@@ -943,43 +943,37 @@ footer .footer-bottom {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 400px;
+  min-height: 450px;
   background: #fff;
 }
-
-
-/* Tablet */
-@media (max-width: 768px) {
-  .piaDescSwiper .img-1 img {
-    transform: scale(1.5) !important; /* phóng to 1.5 lần */
-  }
-}
-
-/* Mobile nhỏ */
-@media (max-width: 480px) {
-  .piaDescSwiper .img-1 img {
-    transform: scale(2) !important;   /* phóng to 2 lần */
-  }
-}
-
-/* Container cho phép ảnh phóng to vượt ra ngoài */
-.piaDescSwiper .img-1 {
-  overflow: visible !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Ảnh mặc định */
+/* Mặc định (desktop, không phóng to nhiều) */
 .piaDescSwiper .img-1 img {
-  width: auto !important;
-  height: auto !important;
-  max-width: none !important;
-  max-height: none !important;
+  width: 100% !important;
+  height: 100% !important;
   object-fit: contain !important;
-  transform: scale(1) !important;  /* bình thường */
+  transform: scale(1) !important;   /* bình thường */
   transform-origin: center !important;
 }
+
+/* Màn hình dưới 768px (tablet, mobile) */
+@media (max-width: 768px) {
+  .piaDescSwiper .img-1 img {
+    transform: scale(1.5) !important;  /* phóng to 1.5 lần */
+  }
+}
+
+/* Màn hình rất nhỏ, dưới 480px (mobile nhỏ) */
+@media (max-width: 480px) {
+  .piaDescSwiper .img-1 img {
+    transform: scale(1) !important;   /* phóng to 2 lần */
+  }
+}
+
+
+.piaDescSwiper .img-6 img {
+  max-width: 50%;
+}
+
 
 .piaDescSwiper .img-6 img {
   max-width: 50%;
@@ -994,13 +988,6 @@ footer .footer-bottom {
     object-fit: contain;
   }
 
-    .swiper-slide.img-1 img {
-    width: 55%;       /* thu nhỏ ảnh */
-    height: auto;     /* giữ nguyên tỉ lệ */
-    margin: 0 auto;   /* canh giữa */
-    display: block;
-    object-fit: contain;
-  }
 }
 
 
@@ -1099,12 +1086,6 @@ a
   height: auto;
   object-fit: contain;
 }
-
-
-
-
-
-
 
 
 
