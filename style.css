@@ -948,19 +948,19 @@ footer .footer-bottom {
 }
 .piaDescSwiper .img-1 img {
   width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  transform: scale(2);         /* phóng to 2 lần */
-  transform-origin: center;    /* phóng từ giữa */
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.5);   /* phóng to 1.2 lần */
+  transform-origin: center;
 }
+
+
 
 
 .piaDescSwiper .img-6 img {
   max-width: 50%;
 }
 
-/* Thu nhỏ ảnh chỉ khi màn hình mobile (<= 768px) */
 @media (max-width: 480px) {
   .swiper-slide.img-2 img {
     width: 54%;       /* thu nhỏ ảnh */
@@ -1075,9 +1075,6 @@ a
   height: auto;
   object-fit: contain;
 }
-
-
-
 
 
 
